@@ -1,0 +1,1156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>ERGONOMIC</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Orbitron" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=IBMPlexMono" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=inconsolata" />
+
+  <!--style>
+    .container {
+      width: 400px;
+      height: 400px;
+      perspective: 1000px;
+      margin: 0 auto;
+    }
+
+    .container2 {
+      width: 200px;
+      height: 200px;
+      perspective: 500px;
+      margin: 0 auto;
+    }
+
+    .tesseract-container {
+      width: 100%;
+      height: 100%;
+      transform-style: preserve-3d;
+      animation: rotateTesseract 10s linear infinite;
+    }
+
+    .face {
+      position: absolute;
+      width: 200px;
+      height: 200px;
+      background: transparent;
+      border: 1px solid #000;
+    }
+
+    .face.front {
+      transform: translateZ(100px);
+    }
+
+    .face.back {
+      transform: translateZ(-100px);
+    }
+
+    .face.left {
+      transform: translateX(-100px) rotateY(90deg);
+    }
+
+    .face.right {
+      transform: translateX(100px) rotateY(90deg);
+    }
+
+    .face.top {
+      transform: translateY(-100px) rotateX(90deg);
+    }
+
+    .face.bottom {
+      transform: translateY(100px) rotateX(90deg);
+    }
+
+    .inner-cube {
+      width: 100px;
+      height: 100px;
+      position: absolute;
+      background: transparent;
+      transform-style: preserve-3d;
+      animation: rotateInnerCube 8s linear infinite;
+    }
+
+    .inner-cub2 {
+      width: 75px;
+      height: 75px;
+      position: absolute;
+      background: transparent;
+      transform-style: preserve-3d;
+      animation: rotateInnerCube 6s linear infinite;
+    }
+
+    .inner-cub3 {
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      background: transparent;
+      transform-style: preserve-3d;
+      animation: rotateInnerCube 7s linear infinite;
+    }
+
+    .inner-cube.front {
+      transform: translateZ(50px);
+    }
+
+    .inner-cube.back {
+      transform: translateZ(-50px);
+    }
+
+    .inner-cube.left {
+      transform: translateX(-50px) rotateY(90deg);
+    }
+
+    .inner-cube.right {
+      transform: translateX(50px) rotateY(90deg);
+    }
+
+    .inner-cube.top {
+      transform: translateY(-50px) rotateX(90deg);
+    }
+
+    .inner-cube.bottom {
+      transform: translateY(50px) rotateX(90deg);
+    }
+
+    .inner-cube2.front {
+      transform: translateZ(150px);
+    }
+
+    .inner-cube2.back {
+      transform: translateZ(-150px);
+    }
+
+    .inner-cube2.left {
+      transform: translateX(-150px) rotateY(90deg);
+    }
+
+    .inner-cube2.right {
+      transform: translateX(150px) rotateY(90deg);
+    }
+
+    .inner-cube2.top {
+      transform: translateY(-150px) rotateX(90deg);
+    }
+
+    .inner-cube2.bottom {
+      transform: translateY(150px) rotateX(90deg);
+    }
+
+    .inner-cube3.front {
+      transform: translateZ(150px);
+    }
+
+    .inner-cube3.back {
+      transform: translateZ(-150px);
+    }
+
+    .inner-cube3.left {
+      transform: translateX(-150px) rotateY(90deg);
+    }
+
+    .inner-cube3.right {
+      transform: translateX(150px) rotateY(90deg);
+    }
+
+    .inner-cube3.top {
+      transform: translateY(-150px) rotateX(90deg);
+    }
+
+    .inner-cube3.bottom {
+      transform: translateY(150px) rotateX(90deg);
+    }
+
+    @keyframes rotateTesseract {
+      0% {
+        transform: rotateX(0deg) rotateY(0deg);
+      }
+
+      100% {
+        transform: rotateX(360deg) rotateY(360deg);
+      }
+    }
+
+    @keyframes rotateInnerCube {
+      0% {
+        transform: rotateX(180deg) rotateY(180deg);
+      }
+
+      100% {
+        transform: rotateX(360deg) rotateY(360deg);
+      }
+    }
+
+    @keyframes rotateInnerCube2 {
+      0% {
+        transform: rotateX(0deg) rotateY(0deg);
+      }
+
+      100% {
+        transform: rotateX(360deg) rotateY(360deg);
+      }
+    }
+
+    @keyframes rotateInnerCube3 {
+      0% {
+        transform: rotateX(360deg) rotateY(360deg);
+      }
+
+      100% {
+        transform: rotateX(0deg) rotateY(0deg);
+      }
+    }
+  </style -->
+
+</head>
+
+<body id="myPage">
+
+  <!-- Sidebar on click -->
+  <nav class="w3-sidebar w3-bar-block w3-white w3-card w3-animate-left w3-xxlarge" style="display:none;z-index:2"
+    id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()"
+      class="w3-bar-item w3-button w3-display-topright w3-text-teal">Close
+      <i class="fa fa-remove"></i>
+    </a>
+    <a href="#" class="w3-bar-item w3-button">Sigap</a>
+    <a href="https://sites.google.com/view/ifernandezdesigner/inicio" class="w3-bar-item w3-button">Google Sites</a>
+    <a href="https://portfolioslider.ignacioxiphos.repl.co/" class="w3-bar-item w3-button">Slider Portfolio</a>
+  </nav>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-black">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2"
+        href="javascript:void(0);" onclick="openNav()"><i class="fa fa-envelope-o "></i></a>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications"><a href="#" class="">Home</a></button>
+        <a href="#" class="">|</a>
+      </div>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications"><a href="#team" class="">About Us</a></button>
+        <a href="#" class="">|</a>
+      </div>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications"><a href="#work" class="">Work</a> <i
+            class="fa fa-caret-down"></i></button>
+        <a href="#" class="">|</a>
+        <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+          <a href="#" class="w3-bar-item w3-button">Work 1</a>
+          <a href="https://sites.google.com/view/ifernandezdesigner/inicio" class="w3-bar-item w3-button">Work 2</a>
+          <a href="https://portfolioslider.ignacioxiphos.repl.co/" class="w3-bar-item w3-button">Work 3</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications"><a href="#services" class="">Services</a> <i
+            class="fa fa-caret-down"></i></button>
+        <a href="#" class="">|</a>
+        <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+          <a href="#" class="w3-bar-item w3-button">Marketing Digital</a>
+          <a href="#" class="w3-bar-item w3-button">Transformación Digital</a>
+          <a href="#" class="w3-bar-item w3-button">Diseño Gráfico</a>
+          <a href="#" class="w3-bar-item w3-button">Redes Sociales </a>
+          <a href="#" class="w3-bar-item w3-button">Datos e Información </a>
+          <a href="#" class="w3-bar-item w3-button">Soporte Técnico</a>
+        </div>
+      </div>
+      <div class="w3-dropdown-hover w3-hide-small">
+        <button class="w3-button" title="Notifications"><a href="#pricing" class="">Packs</a></button>
+        <a href="#" class="">|</a>
+      </div>
+      <div class="w3-dropdown-hover w3-hide-small w3-right">
+        <button class="w3-button" title="Notifications"><a href="#contact" class="" title="Search"><i
+              class="fa fa-male"></i>Ergonomic</a></button>
+      </div>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-white">
+      <a href="#" class="w3-bar-item w3-button">Home</a>
+      <a href="#team" class="w3-bar-item w3-button">About Us</a>
+      <a href="#services" class="w3-bar-item w3-button">Services</a>
+      <a href="#work" class="w3-bar-item w3-button">Work</a>
+      <a href="#pricing" class="w3-bar-item w3-button">Packs</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+
+  <!-- Background -->
+  <!-- Image Header -->
+  <div class="w3-black w3-row-padding w3-padding-64 w3-hide-small">
+    <sectio class="nav">
+      <!-- style="background-color: #000000"-->
+      <!--img src="cab2.png" class="img w3-opacity-max"-->
+      <h1><a class="color header2">
+          <center>ERGONOMIC</center>
+        </a></h1>
+      <!-- Background -->
+      <!--h1>ERGONOMIC</h1-->
+      <center>
+        <h3 class="span loader w3-hide-small"><span class="m">B</span><span class="m">E</span><span
+            class="m">N</span><span class="m">E</span><span class="m">F</span><span class="m">I</span><span
+            class="m">T</span><span class="m">S</span><span class="m">&nbsp;</span><span class="m">o</span><span
+            class="m">f</span><span class="m">&nbsp;</span><span class="m">D</span><span class="m">E</span><span
+            class="m">S</span><span class="m">I</span><span class="m">G</span><span class="m">N</span></h3>
+      </center>
+    </sectio>
+    <canvas class="background"></canvas>
+    <!-- SGVsbG8hIE15IG5hbWUgaXMgU2FyYSBNYXphbC4gV2VsY29tZSB0byBteSBDb2RlUGVuIQ== -->
+  </div>
+
+  <!-- Modal -->
+  <div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4 w3-animate-top">
+      <header class="w3-container w3-teal w3-display-container">
+        <span onclick="document.getElementById('id01').style.display='none'"
+          class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+        <h4>Oh snap! We just showed you a modal..</h4>
+        <h5>Because we can <i class="fa fa-smile-o"></i></h5>
+      </header>
+      <div class="w3-container">
+        <p>Cool huh? Ok, enough teasing around..</p>
+        <p>
+          <!--Go to our --><a class="w3-text-teal" href="">
+            <!--W3.CSS Tutorial-->
+          </a><!-- to learn more!-->
+        </p>
+      </div>
+      <footer class="w3-container w3-teal">
+        <p>
+          <!--Modal footer-->
+        </p>
+      </footer>
+    </div>
+  </div>
+
+  <!-- Services Container -->
+  <div class="w3-row-padding w3-padding-64">
+    <div class="w3-show-small w3-hide-large">
+      <center>
+        <div class="octagon img4 w3-center">
+          <video onloadstart="this.muted=true" autoplay loop src="HypercubeCentral.mp4" width="300" height="300" class="w3-center"></video>
+        </div>
+      </center>
+    </div>
+    <a class="w3-hide-small">
+      <center>SERVICIOS</center>
+    </a>
+    <div class="" id="services">
+
+      <center>
+        <div class="w3-half" id="services">
+          <!-- for small screens -->
+          <div class="w3-third w3-opacity w3-hover-opacity-off w3-show-small w3-hide-medium w3-hide-large">
+            <div class="example-2 cards">
+              <div class="rapper">
+                <div class="data">
+                  <div class="content">
+                    <div class="content">
+                      <a href="#" class="serv w3-left" style="background-color: #000000">SERVICIOS</a>
+                      <ol>
+                        <li type=”square” value="1">DISEÑO GRÁFICO</li>
+                        <li type=”square”>IDENTIDAD DE MARCA</li>
+                        <li type=”square”>CREACIÓN DE CONTENIDO</li>
+                        <li type=”square”>GESTIÓN DE REDES</li>
+                        <li type=”square”>GOOGLE ADS</li>
+                        <li type=”square”>FACEBOOK E INSTAGRAM ADS</li>
+                        <li type=”square”>EMAIL MARKETING</li>
+                        <li ype=”square”>DISEÑO WEB Y BACKEND</li>
+                        <li type=”square”>TIENDAS ONLINE</li>
+                        <li type=”square”>PRODUCCIÓN AUDIOVISUAL</li>
+                      </ol>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w3-third w3-opacity w3-hover-opacity-off w3-hide-small">
+            <div class="example-2 card">
+              <div class="wrapper">
+                <div class="header">
+                  <div class="date w3-left">
+                    <a href="#" class="Ergonomic" style="background-color: #000000">Ergonomic</a>
+                  </div>
+                </div>
+                <div class="data">
+                  <h1 class="number">1</h1>
+
+                  <div class="content">
+                    <div class="content">
+
+                      <span class="author">Marketing </span>
+                      <h1 class="title">Digital</h1>
+                      <p>
+                        Comunity Managment
+                        Branding Digital
+                        E-Mail Marketing
+                        Facebook e Instagram ADS
+                        Google ADS
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-opacity w3-hover-opacity-off w3-hide-small">
+            <div class="example-2 card">
+              <div class="wrapper">
+                <div class="header">
+                  <div class="date w3-left">
+                    <a href="#" class="Ergonomic" style="background-color: #000000">Ergonomic</a>
+                  </div>
+                </div>
+                <div class="data">
+                  <h1 class="number">2</h1>
+                  <div class="content">
+                    <div class="content">
+
+                      <span class="author">Transformación
+                      </span>
+                      <h1 class="title">Digital
+                      </h1>
+                      <p>
+                        CRM
+                        Landingpage
+                        E-Commerce
+                        Catalogos Online
+                        Tienda Nube
+                        Mercado Shops
+                        Estrategias SEO</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-third w3-opacity w3-hover-opacity-off w3-hide-small">
+            <div class="example-2 card">
+              <div class="wrapper">
+                <div class="header">
+                  <div class="date w3-left">
+                    <a href="#" class="Ergonomic" style="background-color: #000000">Ergonomic</a>
+                  </div>
+                </div>
+                <div class="data">
+                  <h1 class="number">3</h1>
+                  <div class="content">
+                    <div class="content">
+
+                      <span class="author">Diseño
+                      </span>
+                      <h1 class="title">Gráfico
+                      </h1>
+                      <p>
+                        Logotipos
+                        Catálogos
+                        Packaging
+                        Flyers
+                        Cartelerias
+                        Identidad/Marca
+                        Gráficas/Redes
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-opacity w3-hover-opacity-off w3-hide-small">
+            <div class="example-2 card">
+              <div class="wrapper">
+                <div class="header">
+                  <div class="date w3-left">
+                    <a href="#" class="Ergonomic" style="background-color: #000000">Ergonomic</a>
+                  </div>
+                </div>
+                <div class="data">
+                  <h1 class="number">4</h1>
+                  <div class="content">
+                    <div class="content">
+
+                      <span class="author">Redes
+                      </span>
+                      <h1 class="title">Sociales
+                      </h1>
+                      <p>
+                        Fotografía
+                        Producción Audiovisual
+                        Marketing de Contenido
+                        Gestión de Redes
+                        Comunity Managment
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-opacity w3-hover-opacity-off w3-hide-small">
+            <div class="example-2 card">
+              <div class="wrapper">
+                <div class="header">
+                  <div class="date w3-left">
+                    <a href="#" class="Ergonomic" style="background-color: #000000">Ergonomic</a>
+                  </div>
+                </div>
+                <div class="data">
+                  <h1 class="number">5</h1>
+                  <div class="content">
+                    <div class="content">
+
+                      <span class="author">Datos
+                      </span>
+                      <h1 class="title">Información
+                      </h1>
+                      <p>
+                        Carga de Datos (Data Entry)
+                        Digitalización de Documentos
+                        Creación de Tutoriales
+                        Gestión de Chatbots
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="w3-third w3-opacity w3-hover-opacity-off w3-hide-small">
+            <div class="example-2 card">
+              <div class="wrapper">
+                <div class="header">
+                  <div class="date w3-left">
+                    <a href="#" class="Ergonomic" style="background-color: #000000">Ergonomic</a>
+                  </div>
+                </div>
+                <div class="data">
+                  <h1 class="number">6</h1>
+                  <div class="content">
+                    <div class="content">
+
+                      <span class="author">Soporte</span>
+                      <h1 class="title">Técnico</h1>
+                      <p>
+                        Software y Hardware
+                        Armado de Equipos
+                        Instalación
+                        Configuración
+                        Asistencia Presencial/Remota
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </center>
+
+      <div class="w3-quarter w3-right w3-hide-small w3-hide-medium">
+        <div class="octagon img2 w3-white">
+          <video onloadstart="this.muted=true" autoplay loop src="HypercubeCentral.mp4" width="550" height="550"></video>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Team Container -->
+  <div class="w3-black">
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="team">
+      <h2>OUR TEAM</h2>
+      <p>Meet the team - our office rats</p>
+      <h2></h2>
+      <h2></h2>
+      <div class="w3-third">
+        <img src="5.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Ignacio</h3>
+        <p>Backend/Web Designer</p>
+        <p>Desarrollo de aplicaciones a medida y diseño web </p>
+      </div>
+
+      <div class="w3-third">
+        <img src="support.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Sergio</h3>
+        <p>Support</p>
+      </div>
+
+      <div class="w3-third">
+        <img src="bossman.png" alt="Boss" style="width:45%" class="w3-circle w3-hover-opacity">
+        <h3>Rodrigo</h3>
+        <p>Boss man</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Work Row -->
+  <div class="w3-row-padding w3-center w3-padding-64 w3-white" id="work">
+    <div class="w3-third w3-margin-bottom">
+      <!-- flip-card-container -->
+      <div class="flip-card-container" style="--hue: 220">
+        <div class="flip-card">
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img
+                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Brohm Lake">
+              <figcaption>Municipalidad de Paraná</figcaption>
+            </figure>
+            <ul>
+              <li>Sistema integral de gestión</li>
+              <li>Facturas</li>
+              <li>Registros</li>
+              <li>Ordenes e Informes</li>
+              <li>Análisis y Estadísticas</li>
+            </ul>
+          </div>
+
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img
+                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Brohm Lake">
+            </figure>
+
+            <button>S.I.G.A.P</button>
+
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /flip-card-container -->
+    <!-- flip-card-container -->
+    <div class="w3-third w3-margin-bottom">
+      <div class="flip-card-container" style="--hue: 170">
+        <div class="flip-card">
+
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img
+                src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Image 2">
+              <figcaption>Portfolio Google Sites</figcaption>
+            </figure>
+
+            <ul>
+              <li>Desarrollado con Google Sites</li>
+            </ul>
+          </div>
+
+          <div class="card-back">
+            <figure>
+              <div class="img-bg"></div>
+              <img
+                src="https://images.unsplash.com/photo-1545436864-cd9bdd1ddebc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="image-2">
+            </figure>
+
+            <button>Portfolio 1</button>
+
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /flip-card-container -->
+    <!-- flip-card-container -->
+    <div class="w3-third w3-margin-bottom">
+      <div class="flip-card-container" style="--hue: 350">
+        <div class="flip-card">
+
+          <div class="card-front">
+            <figure>
+              <div class="img-bg"></div>
+              <img
+                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Brohm Lake">
+              <figcaption></figcaption>
+            </figure>
+
+            <ul>
+              <li>Works Parallax Examples</li>
+            </ul>
+          </div>
+
+          <div class="card-back">
+            <!-- only if the image is necessary -->
+            <figure>
+              <div class="img-bg"></div>
+              <img
+                src="https://images.unsplash.com/photo-1486162928267-e6274cb3106f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                alt="Brohm Lake">
+            </figure>
+
+            <button>Portfolio 2</button>
+
+            <!-- can add svg here and remove these eight spans -->
+            <div class="design-container">
+              <span class="design design--1"></span>
+              <span class="design design--2"></span>
+              <span class="design design--3"></span>
+              <span class="design design--4"></span>
+              <span class="design design--5"></span>
+              <span class="design design--6"></span>
+              <span class="design design--7"></span>
+              <span class="design design--8"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- /flip-card-container -->
+
+  <!-- Work Row -->
+  <div class="w3-theme-l5">
+
+    <div class="w3-container w3-content w3-center w3-padding-64 w3-theme-l5" style="max-width:700px" id="work">
+      <p class="w3-opacity"><i class="title">
+          <h2>Works</h2>
+        </i></p>
+      <p class="w3-center">
+        Unveil Our Creative Potential.
+        Delve into Our Range of Services.
+        We are a collective of imaginative minds, blending the analytical and artistic, united in the pursuit of
+        creative excellence.
+        Our beginnings can be linked to a single driving force: to create EXCEPTIONAL WORK infused with meticulousness
+        and innovation.</p>
+    </div>
+  </div>
+  <!-- Container -->
+  <div class="w3-container " style="position:relative">
+    <a onclick="w3_open()" class="w3-button w3-xlarge w3-circle w3-teal"
+      style="position:absolute;top:-28px;right:24px">+</a>
+  </div>
+
+  <!-- Pricing Row -->
+  <div class="w3-row-padding w3-center w3-padding-64 w3-black" id="pricing">
+    <h2 class="title">PRICING</h2>
+    <p>Choose a pricing plan that fits your needs.</p><br>
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">
+          <p class="w3-xlarge">Basic</p>
+        </li>
+        <li class="w3-padding-16"><b>10GB</b> Storage</li>
+        <li class="w3-padding-16"><b>10</b> Emails</li>
+        <li class="w3-padding-16"><b>10</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 10</h2>
+          <h3 class="w3-opacity">per month</h3>
+        </li>
+        <li class="w3-black w3-padding-24">
+          <span class="w3-opacity"><button class="w3-button w3-white w3-padding-large w3-hover-black"><i
+                class="fa fa-check"></i> Sign Up</button></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">
+          <p class="w3-xlarge">Pro</p>
+        </li>
+        <li class="w3-padding-16"><b>25GB</b> Storage</li>
+        <li class="w3-padding-16"><b>25</b> Emails</li>
+        <li class="w3-padding-16"><b>25</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 25</h2>
+          <h3 class="w3-opacity">per month</h3>
+        </li>
+        <li class="w3-black w3-padding-24">
+          <span class="w3-opacity"><button class="w3-button w3-white w3-padding-large w3-hover-black"><i
+                class="fa fa-check"></i> Sign Up</button></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-opacity w3-hover-opacity-off">
+        <li class="w3-dark-grey w3-xlarge w3-padding-32">
+          <p class="w3-xlarge">Premium</p>
+        </li>
+        <li class="w3-padding-16"><b>50GB</b> Storage</li>
+        <li class="w3-padding-16"><b>50</b> Emails</li>
+        <li class="w3-padding-16"><b>50</b> Domains</li>
+        <li class="w3-padding-16"><b>Endless</b> Support</li>
+        <li class="w3-padding-16">
+          <h2 class="w3-wide"><i class="fa fa-usd"></i> 50</h2>
+          <h3 class="w3-opacity">per month</h3>
+        </li>
+        <li class="w3-black w3-padding-24">
+          <span class="w3-opacity"><button class="w3-button w3-white w3-padding-large w3-hover-black"><i
+                class="fa fa-check"></i> Sign Up</button></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Contact Container -->
+  <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
+    <div class="w3-row">
+      <div class="w3-col m5">
+        <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact </span></div>
+        <h3 class="title">Address</h3>
+        <p>Swing by for a cup of coffee, or whatever.</p>
+        <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Paraná, Entre Rios, Argentina</p>
+        <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +54 3434704479</p>
+        <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  nacho.xiphos@gmail.com</p>
+      </div>
+      <div class="w3-col m7">
+        <form id="contact-form" class="w3-container w3-card-4 w3-padding-16 w3-black" action="" target="_blank">
+          <div class="w3-section">
+            <label>Name</label>
+            <input class="w3-input" type="text" name="Name" required>
+          </div>
+          <div class="w3-section">
+            <label>Email</label>
+            <input class="w3-input" type="text" name="Email" required>
+          </div>
+          <div class="w3-section">
+            <label>Message</label>
+            <input class="w3-input" type="text" name="Message" required>
+          </div>
+          <input class="w3-check" type="checkbox" checked name="Like">
+          <label>I Like it!</label>
+          <button type="submit" class="w3-button w3-right w3-theme"
+            onclick="return confirm('Registro enviado con exito , para continuar revise su e-mail')">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Image of location/map -->
+
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 w3-black w3-center">
+    <a class="w3-button w3-large w3-theme-black" href="javascript:void(0)" title="Facebook"><i
+        class="fa fa-facebook"></i></a>
+    <a class="w3-button w3-large w3-theme-black" href="javascript:void(0)" title="Google +"><i
+        class="fa fa-instagram"></i></a>
+    <a class="w3-button w3-large w3-theme-black" href="javascript:void(0)" title="Google +"><i
+        class="fa fa-whatsapp"></i></a>
+    <p>Powered by <a href="" target="_blank">ifernández</a></p>
+
+    <div style="position:relative;bottom:100px;z-index:1;" class="w3-tooltip w3-right">
+      <span class="w3-text w3-padding w3-theme-black w3-hide-small">Go To Top</span>
+      <a class="w3-button w3-theme-black" href="#myPage"><span class="w3-xlarge">
+          <i class="fa fa-chevron-circle-up w3-black"></i></span></a>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"></script>
+  <script>// Script for side navigation
+
+    document.getElementById("contact-form").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      // Obtener los datos del formulario
+      const formData = new FormData(this);
+      var cors = require('cors');
+      formData = express();
+      formData.use(cors());
+      // Configurar los datos para enviar a SendGrid
+      const data = {
+        personalizations: [
+          {
+            to: [{email: "nacho.xiphos@gmail.com"}],
+            subject: "Nuevo mensaje desde el sitio web"
+          }
+        ],
+        from: {email: formData.get("Email")},
+        content: [{type: "text/plain", value: formData.get("Message")}]
+      };
+
+      // Enviar el correo utilizando SendGrid API
+      axios.post("https://api.sendgrid.com/v3/mail/send", data, {
+        headers: {
+          "Authorization": "Bearer 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" // Reemplaza TU_API_KEY con tu clave de SendGrid
+        }
+      })
+        .then(function (response) {
+          alert("Correo enviado con éxito.");
+        })
+        .catch(function (error) {
+          alert("Hubo un error al enviar el correo." + error);
+          console.error(error);
+        });
+    });
+
+    function w3_open() {
+      var x = document.getElementById("mySidebar");
+      x.style.fontFamily = "Orbitron-Regular";
+      x.style.width = "250px";
+      x.style.paddingTop = "15%";
+      x.style.display = "block";
+    }
+
+    // Close side navigation
+    function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+    }
+
+    // Used to toggle the menu on smaller screens when clicking on the menu button
+    function openNav() {
+      var x = document.getElementById("navDemo");
+      x.style.paddingTop = "15%";
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+    /*-----------------------------------------------------------------------------------------*/
+    Vue.config.devtools = true;
+
+    Vue.component("card", {
+      template: `
+      <div class="card-wrap"
+        @mousemove="handleMouseMove"
+        @mouseenter="handleMouseEnter"
+        @mouseleave="handleMouseLeave"
+        ref="card">
+        <div class="card"
+          :style="cardStyle">
+          <div class="card-bg" :style="[cardBgTransform, cardBgImage]"></div>
+          <div class="card-info">
+            <slot name="header"></slot>
+            <slot name="content"></slot>
+          </div>
+        </div>
+      </div>`,
+      mounted() {
+        this.width = this.$refs.card.offsetWidth;
+        this.height = this.$refs.card.offsetHeight;
+      },
+      props: ["dataImage"],
+      data: () => ({
+        width: 0,
+        height: 0,
+        mouseX: 0,
+        mouseY: 0,
+        mouseLeaveDelay: null
+      }),
+      computed: {
+        mousePX() {
+          return this.mouseX / this.width;
+        },
+        mousePY() {
+          return this.mouseY / this.height;
+        },
+        cardStyle() {
+          const rX = this.mousePX * 30;
+          const rY = this.mousePY * -30;
+          return {
+            transform: `rotateY(${rX}deg) rotateX(${rY}deg)`
+          };
+        },
+        cardBgTransform() {
+          const tX = this.mousePX * -40;
+          const tY = this.mousePY * -40;
+          return {
+            transform: `translateX(${tX}px) translateY(${tY}px)`
+          };
+        },
+      },
+      methods: {
+        handleMouseMove(e) {
+          this.mouseX = e.pageX - this.$refs.card.offsetLeft - this.width / 2;
+          this.mouseY = e.pageY - this.$refs.card.offsetTop - this.height / 2;
+        },
+        handleMouseEnter() {
+          clearTimeout(this.mouseLeaveDelay);
+        },
+        handleMouseLeave() {
+          this.mouseLeaveDelay = setTimeout(() => {
+            this.mouseX = 0;
+            this.mouseY = 0;
+          }, 1000);
+        }
+      }
+    });
+
+    const app = new Vue({
+      el: "#app"
+    });
+
+    /* Credit and Thanks:
+    Matrix - Particles.js;
+    SliderJS - Ettrics;
+    Design - Sara Mazal Web;
+    Fonts - Google Fonts
+    */
+
+    window.onload = function () {
+      Particles.init({
+        selector: ".background"
+      });
+    };
+    const particles = Particles.init({
+      selector: ".background",
+      color: ["#03dac6", "#ff0266", "#000000"],
+      connectParticles: true,
+      responsive: [
+        {
+          breakpoint: 768,
+          options: {
+            color: ["#faebd7", "#03dac6", "#ff0266"],
+            maxParticles: 43,
+            connectParticles: false
+          }
+        }
+      ]
+    });
+
+    class NavigationPage {
+      constructor() {
+        this.currentId = null;
+        this.currentTab = null;
+        this.tabContainerHeight = 70;
+        this.lastScroll = 0;
+        let self = this;
+        $(".nav-tab").click(function () {
+          self.onTabClick(event, $(this));
+        });
+        $(window).scroll(() => {
+          this.onScroll();
+        });
+        $(window).resize(() => {
+          this.onResize();
+        });
+      }
+
+      onTabClick(event, element) {
+        event.preventDefault();
+        let scrollTop =
+          $(element.attr("href")).offset().top - this.tabContainerHeight + 1;
+        $("html, body").animate({scrollTop: scrollTop}, 600);
+      }
+
+      onScroll() {
+        this.checkHeaderPosition();
+        this.findCurrentTabSelector();
+        this.lastScroll = $(window).scrollTop();
+      }
+
+      onResize() {
+        if (this.currentId) {
+          this.setSliderCss();
+        }
+      }
+
+      checkHeaderPosition() {
+        const headerHeight = 75;
+        if ($(window).scrollTop() > headerHeight) {
+          $(".nav-container").addClass("nav-container--scrolled");
+        } else {
+          $(".nav-container").removeClass("nav-container--scrolled");
+        }
+        let offset =
+          $(".nav").offset().top +
+          $(".nav").height() -
+          this.tabContainerHeight -
+          headerHeight;
+        if (
+          $(window).scrollTop() > this.lastScroll &&
+          $(window).scrollTop() > offset
+        ) {
+          $(".nav-container").addClass("nav-container--move-up");
+          $(".nav-container").removeClass("nav-container--top-first");
+          $(".nav-container").addClass("nav-container--top-second");
+        } else if (
+          $(window).scrollTop() < this.lastScroll &&
+          $(window).scrollTop() > offset
+        ) {
+          $(".nav-container").removeClass("nav-container--move-up");
+          $(".nav-container").removeClass("nav-container--top-second");
+          $(".nav-container-container").addClass("nav-container--top-first");
+        } else {
+          $(".nav-container").removeClass("nav-container--move-up");
+          $(".nav-container").removeClass("nav-container--top-first");
+          $(".nav-container").removeClass("nav-container--top-second");
+        }
+      }
+
+      findCurrentTabSelector(element) {
+        let newCurrentId;
+        let newCurrentTab;
+        let self = this;
+        $(".nav-tab").each(function () {
+          let id = $(this).attr("href");
+          let offsetTop = $(id).offset().top - self.tabContainerHeight;
+          let offsetBottom =
+            $(id).offset().top + $(id).height() - self.tabContainerHeight;
+          if (
+            $(window).scrollTop() > offsetTop &&
+            $(window).scrollTop() < offsetBottom
+          ) {
+            newCurrentId = id;
+            newCurrentTab = $(this);
+          }
+        });
+        if (this.currentId != newCurrentId || this.currentId === null) {
+          this.currentId = newCurrentId;
+          this.currentTab = newCurrentTab;
+          this.setSliderCss();
+        }
+      }
+
+      setSliderCss() {
+        let width = 0;
+        let left = 0;
+        if (this.currentTab) {
+          width = this.currentTab.css("width");
+          left = this.currentTab.offset().left;
+        }
+        $(".nav-tab-slider").css("width", width);
+        $(".nav-tab-slider").css("left", left);
+      }
+    }
+
+    new NavigationPage();
+  /* Credit and Thanks:
+    Matrix - Particles.js;
+    SliderJS - Ettrics;
+    Design - Sara Mazal Web;
+    Fonts - Google Fonts
+    */
+  </script>
+
+</body>
+
+</html>
